@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $(".button_search").click(function(){
-        // $(".temp").remove();
+        $(".temp").empty();
 
         $.ajax({
             method: "GET",
